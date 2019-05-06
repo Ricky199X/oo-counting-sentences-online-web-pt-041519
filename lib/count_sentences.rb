@@ -18,4 +18,5 @@ class String
     sentence_arr = self.split(/[.?!]/)
     sentence_arr.delete_if {|i| i.empty?}
     sentence_arr.length
+  end
 end
